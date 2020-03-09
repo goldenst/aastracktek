@@ -22,7 +22,7 @@ exports.register = asyncHandler(async (req, res, next) => {
 });
 
 // @Description       LOGIN User
-// @Route             POST api/v1/auth/register
+// @Route             POST api/v1/auth/login
 // @access            Public
 exports.login = asyncHandler(async (req, res, next) => {
   const { email, password } = req.body;

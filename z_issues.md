@@ -1,5 +1,7 @@
 remove consolle logs
 
+cookies are not removing from locastorage 
+
 models/Courses 
 ln 46 console.log("Calculating cost ....".blue);
 ln 60 console.log(obj)
